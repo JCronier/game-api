@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A social site to show upcoming games and game news",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/JCronier/game-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.2"
   }
 }
