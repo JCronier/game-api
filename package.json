@@ -1,0 +1,29 @@
+{
+  "name": "game-api",
+  "version": "1.0.0",
+  "description": "A social site to show upcoming games and game news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCronier/game-api.git"
+  },
+  "keywords": [
+    "game",
+    "api",
+    "social"
+  ],
+  "author": "Jordan Cronier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCronier/game-api/issues"
+  },
+  "homepage": "https://github.com/JCronier/game-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
